@@ -16,7 +16,7 @@
         <a
           v-if="url"
           class="text-gray-500"
-          href="{props.data.url}"
+          :href="url"
           target="_blank"
           rel="noopener noreferrer"
           >{{ url }}</a
