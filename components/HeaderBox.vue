@@ -24,20 +24,6 @@
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
       <div class="text-sm lg:flex-grow">
         <nuxt-link
-          to="/"
-          class="
-            block
-            mt-4
-            lg:inline-block
-            lg:mt-0
-            text-blue-200
-            hover:text-white
-            mr-4
-          "
-        >
-          Home
-        </nuxt-link>
-        <nuxt-link
           to="/career"
           class="
             block
