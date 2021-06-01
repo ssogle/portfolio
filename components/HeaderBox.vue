@@ -1,8 +1,8 @@
 <template>
   <nav class="flex items-center justify-between flex-wrap bg-blue-500 p-6">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
-      <span class="font-semibold text-xl tracking-tight"
-        >Portfolio for Ssogle</span
+      <nuxt-link to="/" class="font-semibold text-xl tracking-tight"
+        >Portfolio for Ssogle</nuxt-link
       >
     </div>
     <div class="block lg:hidden">
