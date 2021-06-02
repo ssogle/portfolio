@@ -7,13 +7,19 @@
         </div>
         <h2 class="text-center text-xl pt-2 pb-4 uppercase">skill</h2>
       </div>
-      <skill-card
-        v-for="(item, index) in list"
-        :key="index"
-        :name="item.name"
-        :explain="item.explain"
-        :level="item.level"
-      ></skill-card>
+      <ul class="flex flex-wrap w-full">
+        <li
+          v-for="(item, index) in list"
+          :key="index"
+          class="xl:w-1/3 lg:w-1/3 w-full"
+        >
+          <skill-card
+            :name="item.name"
+            :explain="item.explain"
+            :level="item.level"
+          ></skill-card>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
