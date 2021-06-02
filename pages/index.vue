@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container m-auto">
-      <div class="flex flex-wrap justify-center content-center mb-4 py-12">
+      <div class="flex flex-wrap justify-center content-center mb-4 pt-5">
         <div class="item text-center w-full overflow-hidden p-3 break-words">
           <div class="rounded overflow-hidden shadow-lg bg-blue-400 py-12">
             <div class="lg:px-12 block lg:text-left">

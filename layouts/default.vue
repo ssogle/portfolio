@@ -1,7 +1,9 @@
 <template>
   <div>
     <header-box></header-box>
-    <nuxt />
+    <div class="pt-24 pb-12">
+      <nuxt />
+    </div>
     <hr />
     <footer-box></footer-box>
   </div>
