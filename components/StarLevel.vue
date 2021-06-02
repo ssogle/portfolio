@@ -1,7 +1,10 @@
 <template>
   <div class="text-blue-800 opacity-75 flex">
-    <fa-icon v-for="index in level" :key="index" icon="star" />
-    <fa-icon v-for="index in 3 - level" :key="index" :icon="['far', 'star']" />
+    <fa-icon
+      v-for="index in 3"
+      :key="index"
+      :icon="index <= level ? 'star' : ['far', 'star']"
+    />
   </div>
 </template>
 
