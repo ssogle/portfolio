@@ -93,7 +93,7 @@ export const state = () => ({
       content: '웹 유지보수',
       desc: '언론사 웹사이트',
       company: '한국미디어네트워크',
-      img: '/images/01.jpg',
+      img: '01.jpg',
       tag: ['php', 'mysql', 'html', 'css', 'javascript', 'jquery'],
     },
     {
@@ -105,7 +105,7 @@ export const state = () => ({
       content: '웹 유지보수',
       desc: '언론사 웹사이트',
       company: '한국미디어네트워크',
-      img: '/images/02.jpg',
+      img: '02.jpg',
       tag: ['php', 'mysql', 'css', 'html', 'javascript', 'jquery'],
     },
     {
@@ -117,7 +117,7 @@ export const state = () => ({
       content: '웹 유지보수',
       desc: '언론사 웹사이트',
       company: '한국미디어네트워크',
-      img: '/images/03.jpg',
+      img: '03.jpg',
       tag: ['php', 'mysql', 'css', 'html', 'javascript', 'jquery'],
     },
     {
@@ -129,7 +129,7 @@ export const state = () => ({
       content: '웹 유지보수',
       desc: '언론사 웹사이트',
       company: '한국미디어네트워크',
-      img: '/images/04.jpg',
+      img: '04.jpg',
       tag: ['php', 'mysql', 'css', 'html', 'javascript', 'jquery'],
     },
     {
@@ -141,7 +141,7 @@ export const state = () => ({
       content: '웹 유지보수',
       desc: '언론사 웹사이트',
       company: '한국미디어네트워크',
-      img: '/images/05.jpg',
+      img: '05.jpg',
       tag: ['php', 'mysql', 'css', 'html', 'javascript', 'jquery'],
     },
     {
@@ -153,7 +153,7 @@ export const state = () => ({
       content: '웹 유지보수',
       desc: '언론사 웹사이트',
       company: '한국미디어네트워크',
-      img: '/images/06.jpg',
+      img: '06.jpg',
       tag: ['php', 'mysql', 'css', 'html', 'javascript', 'jquery'],
     },
     {
@@ -165,7 +165,7 @@ export const state = () => ({
       content: '웹 유지보수',
       desc: '언론사 웹사이트',
       company: '한국미디어네트워크',
-      img: '/images/07.jpg',
+      img: '07.jpg',
       tag: ['php', 'mysql', 'css', 'html', 'javascript', 'jquery'],
     },
     {
@@ -177,7 +177,7 @@ export const state = () => ({
       content: '웹 신규 개발 및 유지보수',
       desc: '커뮤니티 웹사이트',
       company: '한국미디어네트워크',
-      img: '/images/08.jpg',
+      img: '08.jpg',
       tag: ['php', 'mysql', 'css', 'html', 'javascript', 'jquery', 'gnuboard'],
     },
     {
@@ -189,7 +189,7 @@ export const state = () => ({
       content: '웹 신규 개발 및 유지보수',
       desc: '아이돌 팬 커뮤니티, 포인트샵 웹사이트',
       company: '한국미디어네트워크',
-      img: '/images/09.jpg',
+      img: '09.jpg',
       tag: [
         'php',
         'mysql',
@@ -210,7 +210,7 @@ export const state = () => ({
       content: '웹 신규 개발 및 유지보수',
       desc: '지역별 피트니스 정보 제공 웹사이트',
       company: '위너스톡',
-      img: '/images/10.jpg',
+      img: '10.jpg',
       tag: [
         'php',
         'mysql',
@@ -230,7 +230,7 @@ export const state = () => ({
       content: '웹 신규 개발 및 유지보수',
       desc: '휴대폰 판매 업체 내부 정보 제공 및 주문 관리 웹사이트',
       company: '위너스톡',
-      img: '/images/11.jpg',
+      img: '11.jpg',
       tag: [
         'php',
         'codeigniter',
@@ -263,7 +263,7 @@ export const state = () => ({
       content: '웹 신규 개발 및 유지보수',
       desc: '피부과 상담 및 정보제공, 지점 및 공용 웹사이트',
       company: '위너스톡',
-      img: '/images/13.jpg',
+      img: '13.jpg',
       tag: ['php', 'mysql', 'css', 'html', 'javascript', 'jquery'],
     },
     {
@@ -275,7 +275,7 @@ export const state = () => ({
       content: '웹 신규 개발 및 유지보수',
       desc: '골프 용품 제작업체 제품 정보 제공 웹사이트',
       company: '위너스톡',
-      img: '/images/14.jpg',
+      img: '14.jpg',
       tag: [
         'php',
         'mysql',

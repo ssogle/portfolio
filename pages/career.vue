@@ -3,7 +3,7 @@
     <div class="container m-auto">
       <div class="text-gray-700">
         <div class="text-center pt-5">
-          <!-- <FontAwesomeIcon icon={faBuilding} size='3x' /> -->
+          <fa-icon icon="building" size="3x" />
         </div>
         <h2 class="text-center text-xl pt-2 pb-4 uppercase">career</h2>
       </div>

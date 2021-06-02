@@ -1,9 +1,9 @@
 <template>
   <div class="w-full p-3 break-words">
     <div class="rounded overflow-hidden shadow-lg">
-      <img v-if="img" class="w-full" :src="require(`~/assets${img}`)" />
+      <img v-if="img" class="w-full" :src="require(`~/assets/images/${img}`)" />
       <div v-else class="text-center py-12 bg-blue-400 text-white">
-        <!-- <FontAwesomeIcon icon={faGrinAlt} size='3x' /> -->
+        <fa-icon icon="grin-alt" size="3x" />
       </div>
       <div class="px-6 py-4">
         <span class="text-gray-500">{{ company }}</span>

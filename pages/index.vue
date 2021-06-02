@@ -36,7 +36,7 @@
               py-12
             "
           >
-            <!-- <FontAwesomeIcon icon={faBuilding} class='text-yellow-200' size='3x' /> -->
+            <fa-icon icon="building" class="text-yellow-200" size="3x" />
             <div class="pt-4 uppercase text-xl block">career</div>
           </div>
         </nuxt-link>
@@ -64,7 +64,7 @@
               py-12
             "
           >
-            <!-- <FontAwesomeIcon icon={faBrain} class='text-green-200' size='3x' /> -->
+            <fa-icon icon="brain" class="text-green-200" size="3x" />
             <div class="pt-4 uppercase text-xl block">skill</div>
           </div>
         </nuxt-link>
@@ -92,7 +92,7 @@
               py-12
             "
           >
-            <!-- <FontAwesomeIcon icon={faBriefcase} class='text-pink-200' size='3x' /> -->
+            <fa-icon icon="briefcase" class="text-pink-200" size="3x" />
             <div class="pt-4 uppercase text-xl block">portfolio</div>
           </div>
         </nuxt-link>

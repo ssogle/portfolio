@@ -1,7 +1,7 @@
 <template>
   <div class="text-center py-5">
     <button class="text-gray-500 mb-2">
-      <!-- <FontAwesomeIcon icon={faArrowCircleUp} size='3x' /> -->
+      <fa-icon icon="arrow-circle-up" size='3x' />
     </button>
     <nav>
       <nuxt-link
