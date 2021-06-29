@@ -1,8 +1,24 @@
 <template>
   <div class="w-full p-3 break-words">
     <div class="rounded overflow-hidden shadow-lg">
-      <img v-if="img" class="w-full" :src="require(`~/assets/images/${img}`)" />
-      <div v-else class="text-center py-12 bg-blue-400 text-white">
+      <img
+        v-if="img"
+        class="w-full h-48 object-contain cursor-pointer bg-blue-100"
+        :src="require(`~/assets/images/${img}`)"
+        @click="openTapImg(require(`~/assets/images/${img}`))"
+      />
+      <div
+        v-else
+        class="
+          text-center
+          h-48
+          flex
+          justify-center
+          items-center
+          bg-blue-400
+          text-white
+        "
+      >
         <fa-icon icon="grin-alt" size="3x" />
       </div>
       <div class="px-6 py-4">
@@ -11,11 +27,11 @@
         <p class="text-gray-700 text-base">
           {{ content }}
           <br />
-          <span class="text-blue-400">{{ desc }}</span>
+          <span class="text-gray-500 text-sm">{{ desc }}</span>
         </p>
         <a
           v-if="url"
-          class="text-gray-500"
+          class="text-blue-400"
           :href="url"
           target="_blank"
           rel="noopener noreferrer"
@@ -38,7 +54,7 @@
             mr-2
             mb-2
           "
-          >#{{ item }}</span
+          >{{ item }}</span
         >
       </div>
     </div>
@@ -75,6 +91,11 @@ export default {
     tag: {
       type: Array,
       required: true,
+    },
+  },
+  methods: {
+    openTapImg(uri) {
+      window.open(uri)
     },
   },
 }

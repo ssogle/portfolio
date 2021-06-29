@@ -8,17 +8,17 @@
           {{ explain }}
         </p>
       </div>
-      <div class="px-6 pb-4">
+      <!-- <div class="px-6 pb-4">
         <star-level :level="level"></star-level>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
-import StarLevel from './StarLevel.vue'
+// import StarLevel from './StarLevel.vue'
 export default {
-  components: { StarLevel },
+  // components: { StarLevel },
   props: {
     name: {
       type: String,

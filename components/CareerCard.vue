@@ -1,9 +1,10 @@
 <template>
   <div class="w-full p-3 break-words">
-    <div class="rounded overflow-hidden shadow-lg">
+    <div class="rounded overflow-hidden shadow-lg bg-blue-100">
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-3">{{ company }}</div>
-        <hr />
+        <div class="font-bold text-xl mb-3 border-b pb-3 border-white">
+          {{ company }}
+        </div>
         <div class="text-gray-500 mt-3 mb-2">{{ date }}</div>
         <div class="text-xl">{{ department }} {{ rank }}</div>
       </div>
@@ -53,7 +54,7 @@
           :key="index"
           class="
             inline-block
-            bg-blue-400
+            bg-blue-300
             rounded-full
             px-3
             py-1
@@ -63,7 +64,7 @@
             mr-2
             mb-2
           "
-          >#{{ item }}</span
+          >{{ item }}</span
         >
       </div>
     </div>

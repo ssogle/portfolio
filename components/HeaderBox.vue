@@ -16,7 +16,7 @@
   >
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <nuxt-link to="/" class="font-semibold text-xl tracking-tight"
-        >Portfolio for Ssogle</nuxt-link
+        >Portfolio for SoByeongcheon</nuxt-link
       >
     </div>
     <div class="block lg:hidden">
@@ -48,10 +48,13 @@
               mt-4
               lg:inline-block
               lg:mt-0
-              text-blue-200
-              hover:text-white
+              text-white
+              hover:text-blue-200
               mr-4
             "
+            :class="{
+              'text-blue-200': $route.path == item.path,
+            }"
           >
             {{ item.name }}
           </nuxt-link>
@@ -66,8 +69,8 @@
               mt-4
               lg:inline-block
               lg:mt-0
-              text-blue-200
-              hover:text-white
+              text-white
+              hover:text-blue-200
               mr-4
             "
           >

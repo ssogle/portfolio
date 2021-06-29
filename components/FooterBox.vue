@@ -23,9 +23,7 @@
         </a>
       </span>
     </nav>
-    <p class="pt-5 text-gray-500">
-      Copyright 2020 . SoByeongcheon . All rights reserved
-    </p>
+    <p class="pt-5 text-gray-500">SoByeongcheon</p>
   </div>
 </template>
 

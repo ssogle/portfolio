@@ -6,7 +6,7 @@
           <div class="rounded overflow-hidden shadow-lg bg-blue-400 py-12">
             <div class="lg:px-12 block lg:text-left">
               <div class="text-2xl font-bold text-white">
-                Portfolio for Ssogle
+                Portfolio for SoByeongcheon
               </div>
               <p class="text-white">Welcome to my page</p>
             </div>
@@ -101,7 +101,7 @@
             <div class="lg:px-12 block lg:text-right">
               <div class="border-b-4 border-white border-dotted opacity-50" />
               <div class="text-2xl font-bold text-white mt-2">
-                Portfolio for Ssogle
+                Portfolio for SoByeongcheon
               </div>
               <p class="text-white">Welcome to my page</p>
             </div>
