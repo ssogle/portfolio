@@ -48,6 +48,10 @@ export default {
     }
   },
 
+  router: {
+    base: '/portfolio/'
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
