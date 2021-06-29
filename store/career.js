@@ -1,6 +1,30 @@
 export const state = () => ({
   list: [
     {
+      company: '위펀',
+      rank: '매니저',
+      department: '개발팀',
+      date: '2020. 04 ~ 2021. 06',
+      explain: ['스낵24 및 신규 서비스 웹 앱 프론트엔드 개발'],
+      project: [
+        '고객사 전용 포탈 웹 프론트엔드 개발',
+        '고객사 전용 모바일 앱 프론트엔드 개발',
+        '신규 서비스 소개 및 회원가입 홈페이지 프론트엔드 개발',
+        '무인 결제 키오스크 테블릿 앱 프론트엔드 개발',
+        '고객사 임직원 복지용 선물 수령 웹 프론트엔드 개발',
+      ],
+      skill: [
+        'html',
+        'css',
+        'javascript',
+        'vuejs',
+        'nuxtjs',
+        'nodejs',
+        'axios',
+        'jquery',
+      ],
+    },
+    {
       company: '라오니스',
       rank: '대리',
       department: '기술지원팀',
@@ -23,13 +47,13 @@ export const state = () => ({
         '세종어학당 한국어 교육 html5 콘텐츠 외주 개발',
         '납품업체별 LMS 환경에 따른 콘텐츠 포팅 및 오류 수정',
       ],
-      skill: ['html', 'css', 'javascript', 'react', 'webpack', 'nodejs'],
+      skill: ['html', 'css', 'javascript', 'reactjs', 'webpack', 'nodejs'],
     },
     {
       company: '한국미디어네트워크',
       rank: '사원',
       department: '개발기획부',
-      date: '2017. 11 ~ 2018. 12',
+      date: '2017. 11 ~ 2019. 03',
       explain: [
         '언론사 PC,MOBILE 웹 유지보수',
         '신규 사업 PC,MOBILE 웹 메인 개발업무를 담당',

@@ -14,12 +14,12 @@ export const state = () => ({
     },
     {
       name: 'javascript',
-      level: 2,
+      level: 3,
       explain: '다양한 웹어플리케이션을 제작 할 수 있습니다.',
     },
     {
       name: 'jquery',
-      level: 2,
+      level: 3,
       explain:
         '상황에 맞는 프러그인.함수를 이용해 프론트엔드 개발을 편리하게,신속하게 할 수 있습니다.',
     },
@@ -48,10 +48,27 @@ export const state = () => ({
         '이미지 스프라이트 등의 플러그인을 활용하여 웹개발시 활용 가능합니다.',
     },
     {
-      name: 'react',
+      name: 'axios',
+      level: 2,
+      explain:
+        'axios를 활용하여 promise를 활용하는 http 비동기 통신을 할 수 있습니다.',
+    },
+    {
+      name: 'reactjs',
       level: 2,
       explain:
         'webpack 또는 cli 를 사용하여 웹어플리케이션을 제작할 수 있습니다.',
+    },
+    {
+      name: 'vuejs',
+      level: 2,
+      explain:
+        'webpack 또는 cli 를 사용하여 웹어플리케이션을 제작할 수 있습니다.',
+    },
+    {
+      name: 'nuxtjs',
+      level: 2,
+      explain: 'ssr, spa 등의 웹어플리케이션을 제작할 수 있습니다.',
     },
     {
       name: 'php',
